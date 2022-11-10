@@ -1,0 +1,49 @@
+@use './variables.scss' as *;
+
+.black_banner{
+    background-color: $dark;
+    
+    .container{
+        font-weight: bolder;
+        color: $light;
+        font-size: 1.5rem;
+    }
+}
+
+.linked{
+    background-color: $accent;
+
+    img{
+        width: 50px;
+        height: auto;
+    }
+    p{
+        font-size: 0.75rem;
+        color: $light;
+    }
+}
+
+.list{
+    background-image: url(../img/footer-bg.jpg);
+
+    ul{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: $link;
+        &:hover{
+            color: $link;
+        }
+    }
+    .font{
+        font-size: 0.75rem;
+        color: $link;
+    }
+    .logoImage{
+        background-image: url(../img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
