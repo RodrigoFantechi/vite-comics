@@ -1,30 +1,11 @@
 <script>
+import FasciaAzzurra from './FasciaAzzurra.vue';
 export default {
     name: 'SiteMain',
     data() {
         return {
-            links: [
-                {
-                    image: '/assets/img/buy-comics-digital-comics.png',
-                    link: 'DIGITAL COMICS'
-                },
-                {
-                    image: '/assets/img/buy-comics-merchandise.png',
-                    link: 'DC MERCHANDISE'
-                },
-                {
-                    image: '/assets/img/buy-comics-shop-locator.png',
-                    link: 'SUBSCRIPTION'
-                },
-                {
-                    image: '/assets/img/buy-comics-subscriptions.png',
-                    link: 'COMIC SHOP LOCATOR'
-                },
-                {
-                    image: '/assets/img/buy-dc-power-visa.svg',
-                    link: 'DC POWER VISA'
-                },
-            ],
+    
+            
             dcComics: [
                 'Characters',
                 'Comics',
@@ -61,8 +42,13 @@ export default {
 
 
         }
-    }
+    },
+    components: {
+    FasciaAzzurra,
+  }
 }
+
+
 </script>
 
 <template>
@@ -72,16 +58,7 @@ export default {
                 <p> --> Content goes Here &lt;-- </p>
             </div>
         </section>
-        <section class="linked">
-            <div class="container">
-                <div class="row row-cols-5">
-                    <div class="col d-flex align-items-center p-5" v-for="item in links">
-                        <img :src="'/src' + item.image" alt="">
-                        <p class="mb-0 ms-3">{{ item.link }}</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <FasciaAzzurra />
         <section class="list">
             <div class="container d-flex justify-content-between">
                 <div class="col-5">
