@@ -67,11 +67,11 @@ export default {
                             <div class="col">
                                 <ul>
                                     <li><a href="#">
-                                            <h5 class="mb-3 text-light">DC COMICS</h5>
+                                            <h4 class="mb-3 text-light">DC COMICS</h4>
                                         </a></li>
                                     <li v-for="items in dcComics" class="font"><a href="#">{{ items }}</a></li>
                                     <li><a href="#">
-                                            <h5 class="my-3 text-light">SHOP</h5>
+                                            <h4 class="my-3 text-light">SHOP</h4>
                                         </a></li>
                                     <li v-for="items in shop" class="font"><a href="#">{{ items }}</a></li>
                                 </ul>
@@ -79,7 +79,7 @@ export default {
                             <div class="col">
                                 <ul>
                                     <li><a href="#">
-                                            <h5 class="mb-3 text-light">DC</h5>
+                                            <h4 class="mb-3 text-light">DC</h4>
                                         </a></li>
                                     <li v-for="items in dc" class="font"><a href="#">{{ items }}</a></li>
                                 </ul>
@@ -87,7 +87,7 @@ export default {
                             <div class="col">
                                 <ul>
                                     <li><a href="#">
-                                            <h5 class="mb-3 text-light">SITES</h5>
+                                            <h4 class="mb-3 text-light">SITES</h4>
                                         </a></li>
                                     <li v-for="items in sites" class="font"><a href="#">{{ items }}</a></li>
                                 </ul>
