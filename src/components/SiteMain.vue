@@ -66,61 +66,63 @@ export default {
 </script>
 
 <template>
-    <section class="black_banner">
-        <div class="container p-4 ">
-            <p> --> Content goes Here &lt;-- </p>
-        </div>
-    </section>
-    <section class="linked">
-        <div class="container">
-            <div class="row row-cols-5">
-                <div class="col d-flex align-items-center p-5" v-for="item in links">
-                    <img :src="'/src' + item.image" alt="">
-                    <p class="mb-0 ms-3">{{ item.link }}</p>
-                </div>
+    <main id="site-main">
+        <section class="black_banner">
+            <div class="container p-4 ">
+                <p> --> Content goes Here &lt;-- </p>
             </div>
-        </div>
-    </section>
-    <section class="list">
-        <div class="container d-flex justify-content-between">
-            <div class="col-5">
-                <div class="container py-5">
-                    <div class="row row-cols-3">
-                        <div class="col">
-                            <ul>
-                                <li><a href="#">
-                                        <h5 class="mb-3 text-light">DC COMICS</h5>
-                                    </a></li>
-                                <li v-for="items in dcComics" class="font"><a href="#">{{ items }}</a></li>
-                                <li><a href="#">
-                                        <h5 class="my-3 text-light">SHOP</h5>
-                                    </a></li>
-                                <li v-for="items in shop" class="font"><a href="#">{{ items }}</a></li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul>
-                                <li><a href="#">
-                                        <h5 class="mb-3 text-light">DC</h5>
-                                    </a></li>
-                                <li v-for="items in dc" class="font"><a href="#">{{ items }}</a></li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul>
-                                <li><a href="#">
-                                        <h5 class="mb-3 text-light">SITES</h5>
-                                    </a></li>
-                                <li v-for="items in sites" class="font"><a href="#">{{ items }}</a></li>
-                            </ul>
-                        </div>
+        </section>
+        <section class="linked">
+            <div class="container">
+                <div class="row row-cols-5">
+                    <div class="col d-flex align-items-center p-5" v-for="item in links">
+                        <img :src="'/src' + item.image" alt="">
+                        <p class="mb-0 ms-3">{{ item.link }}</p>
                     </div>
                 </div>
             </div>
-            <div class=" col-7 logoImage"></div>
-        </div>
-    </section>
-
+        </section>
+        <section class="list">
+            <div class="container d-flex justify-content-between">
+                <div class="col-5">
+                    <div class="container py-5">
+                        <div class="row row-cols-3">
+                            <div class="col">
+                                <ul>
+                                    <li><a href="#">
+                                            <h5 class="mb-3 text-light">DC COMICS</h5>
+                                        </a></li>
+                                    <li v-for="items in dcComics" class="font"><a href="#">{{ items }}</a></li>
+                                    <li><a href="#">
+                                            <h5 class="my-3 text-light">SHOP</h5>
+                                        </a></li>
+                                    <li v-for="items in shop" class="font"><a href="#">{{ items }}</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li><a href="#">
+                                            <h5 class="mb-3 text-light">DC</h5>
+                                        </a></li>
+                                    <li v-for="items in dc" class="font"><a href="#">{{ items }}</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li><a href="#">
+                                            <h5 class="mb-3 text-light">SITES</h5>
+                                        </a></li>
+                                    <li v-for="items in sites" class="font"><a href="#">{{ items }}</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-7 logoImage"></div>
+            </div>
+        </section>
+    </main>
+    <!-- /#site-main -->
 </template>
 
 <style lang="scss" scoped>
