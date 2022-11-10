@@ -1,0 +1,28 @@
+@use './variables.scss' as *;
+
+nav {
+
+img{
+    width: 75px;
+    aspect-ratio: 1/1;
+}
+
+
+    a{
+        text-decoration: none;
+        font-size: 0.75rem;
+        color: $dark;
+        margin: 0 0.3rem;
+        padding: 33px 0;
+        border: 2px solid transparent;
+        font-weight: bolder;
+
+    
+
+        &.active {
+            color: $accent;
+            border-bottom-color: $accent;
+          }
+    }
+
+}

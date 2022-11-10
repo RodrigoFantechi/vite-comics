@@ -4,7 +4,10 @@ export default{
 }
 </script>
 
-<template></template>
+<template>
+
+    
+</template>
 
 <style lang="scss" scoped>
 
