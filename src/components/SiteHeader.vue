@@ -52,7 +52,7 @@ export default {
 
 <template>
     <div class="container">
-        <nav class="d-flex justify-content-between align-items-center p-2">
+        <nav class="d-flex justify-content-between align-items-center p-3">
             <img src="../assets/img/dc-logo.png" alt="">
             <div class="links">
                 <a class="mx-2" v-for="item in menuNav" :href="item.href">
