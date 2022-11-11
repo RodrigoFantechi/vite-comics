@@ -44,7 +44,7 @@ export default {
 <template>
     <footer id="site-footer">
         <section class="list">
-            <div class="container d-flex justify-content-between">
+            <div class="container d-flex justify-content-between back">
                 <div class="col-5">
                     <div class="container py-5">
                         <div class="row row-cols-3">
@@ -79,7 +79,6 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class=" col-7 logoImage"></div>
             </div>
         </section>
         <section class="allSocials">
