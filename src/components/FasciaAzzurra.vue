@@ -36,7 +36,7 @@ export default {
         <section class="linked">
             <div class="container">
                 <div class="row row-cols-5">
-                    <div class="col d-flex align-items-center p-5" v-for="item in links">
+                    <div class="col d-flex align-items-center py-5" v-for="item in links">
                         <img :src="'/src' + item.image" alt="">
                         <p class="mb-0 ms-3"><a href="#">{{ item.link }}</a></p>
                     </div>
