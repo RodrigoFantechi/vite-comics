@@ -55,7 +55,7 @@ export default {
         <nav class="d-flex justify-content-between align-items-center p-3">
             <img src="../assets/img/dc-logo.png" alt="">
             <div class="links">
-                <a class="mx-2" v-for="item in menuNav" :href="item.href">
+                <a class="mx-3" v-for="item in menuNav" :href="item.href">
                     {{ item.text }}
                 </a>
             </div>

@@ -13,11 +13,12 @@ export default {
                     link: 'DC MERCHANDISE'
                 },
                 {
-                    image: '/assets/img/buy-comics-shop-locator.png',
+                    image: '/assets/img/buy-comics-subscriptions.png',
+                    
                     link: 'SUBSCRIPTION'
                 },
                 {
-                    image: '/assets/img/buy-comics-subscriptions.png',
+                    image: '/assets/img/buy-comics-shop-locator.png',
                     link: 'COMIC SHOP LOCATOR'
                 },
                 {
