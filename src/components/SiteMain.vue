@@ -2,47 +2,7 @@
 import FasciaAzzurra from './FasciaAzzurra.vue';
 export default {
     name: 'SiteMain',
-    data() {
-        return {
-    
-            
-            dcComics: [
-                'Characters',
-                'Comics',
-                'Movies',
-                'TV',
-                'Games',
-                'Videos',
-                'News'
-            ],
-            shop: [
-                'shop DC',
-                'Shop DC Collectibles',
-            ],
-            dc: [
-                'Term Of Use',
-                'Privacy policy (New)',
-                'Ad Choices',
-                'Advertising',
-                'Jobs',
-                'Subscriptions',
-                'Talent Woekshops',
-                'CPSC Certificates',
-                'Ratings',
-                'Shop Help',
-                'Contact Us',
-            ],
-            sites: [
-                'DC',
-                'MAD Magazine',
-                'DC Kids',
-                'DC Universe',
-                'DC Power Visa',
-            ],
-
-
-        }
-    },
+   
     components: {
     FasciaAzzurra,
   }
@@ -59,45 +19,6 @@ export default {
             </div>
         </section>
         <FasciaAzzurra />
-        <section class="list">
-            <div class="container d-flex justify-content-between">
-                <div class="col-5">
-                    <div class="container py-5">
-                        <div class="row row-cols-3">
-                            <div class="col">
-                                <ul>
-                                    <li><a href="#">
-                                            <h4 class="mb-3 text-light">DC COMICS</h4>
-                                        </a></li>
-                                    <li v-for="items in dcComics" class="font"><a href="#">{{ items }}</a></li>
-                                    <li><a href="#">
-                                            <h4 class="my-3 text-light">SHOP</h4>
-                                        </a></li>
-                                    <li v-for="items in shop" class="font"><a href="#">{{ items }}</a></li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <ul>
-                                    <li><a href="#">
-                                            <h4 class="mb-3 text-light">DC</h4>
-                                        </a></li>
-                                    <li v-for="items in dc" class="font"><a href="#">{{ items }}</a></li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <ul>
-                                    <li><a href="#">
-                                            <h4 class="mb-3 text-light">SITES</h4>
-                                        </a></li>
-                                    <li v-for="items in sites" class="font"><a href="#">{{ items }}</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class=" col-7 logoImage"></div>
-            </div>
-        </section>
     </main>
     <!-- /#site-main -->
 </template>
