@@ -2,12 +2,13 @@
 
 nav {
 
-img{
+    img{
     width: 75px;
     aspect-ratio: 1/1;
-}
+    }
 
-
+.collapse{
+    
     a{
         text-decoration: none;
         color: $dark;
@@ -25,5 +26,32 @@ img{
 
          
     }
+
+    &.show{
+
+        .links{
+            margin: 0.5rem 0;
+            text-align: center;
+            font-size: 1.25rem;
+        }
+        a{
+            text-decoration: none;
+            color: $dark;
+            margin: 0rem 0rem;
+            padding: 0;
+            font-weight: bolder;
+            border-bottom: 0px solid transparent;
+
+            &:hover {
+                color: $accent;
+              }
+    
+             
+        }
+
+    }
+  
+}
+    
 
 }

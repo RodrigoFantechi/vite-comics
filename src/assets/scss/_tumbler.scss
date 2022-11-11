@@ -1,0 +1,13 @@
+@use './variables.scss' as *;
+
+.my_card{
+
+    .img_card{
+       img{
+        width: 100%;
+       }
+    }
+    h6{
+        text-transform: uppercase; 
+    }
+}

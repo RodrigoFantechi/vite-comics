@@ -45,7 +45,7 @@ export default {
     <footer id="site-footer">
         <section class="list">
             <div class="container d-flex justify-content-between back">
-                <div class="col-5">
+                <div class="col-12 col-lg-5">
                     <div class="container py-5">
                         <div class="row row-cols-3">
                             <div class="col">
@@ -82,9 +82,9 @@ export default {
             </div>
         </section>
         <section class="allSocials">
-            <div class="container d-flex justify-content-between">
+            <div class="container d-flex justify-content-between flex-wrap px-3">
                 <div class="my_btn">SIGN-UP NOW!</div>
-                <div class="social d-flex align-items-center">
+                <div class="social d-flex align-items-center flex-wrap">
                     <h6 class="blue me-3">FOLLOW US</h6>
                     <img src="../assets/img/footer-facebook.png" alt="">
                     <img src="../assets/img/footer-twitter.png" alt="">
