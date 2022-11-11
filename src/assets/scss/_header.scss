@@ -10,24 +10,20 @@ img{
 
     a{
         text-decoration: none;
-        
         color: $dark;
         margin: 0 0.3rem;
-        padding: 33px 0;
-        border: 3px solid transparent;
+        padding: 2rem 0;
+        border-bottom: 3px solid transparent;
         font-weight: bolder;
 
     
 
-        &.active {
+        &:hover {
             color: $accent;
-            border-bottom-color: $accent;
+            border-bottom: 3px solid $accent;
           }
 
-          &:hover:not(.active) {
-            color: $dark;
-    
-          }
+         
     }
 
 }

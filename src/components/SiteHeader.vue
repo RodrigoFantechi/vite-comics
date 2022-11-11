@@ -55,7 +55,7 @@ export default {
         <nav class="d-flex justify-content-between align-items-center p-2">
             <img src="../assets/img/dc-logo.png" alt="">
             <div class="links">
-                <a  v-for="item in menuNav" :href="item.href" :class="item.text === 'COMICS' ? 'active' : ''">
+                <a  v-for="item in menuNav" :href="item.href">
                     {{ item.text }}
                 </a>
             </div>
