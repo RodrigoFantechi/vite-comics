@@ -24,7 +24,7 @@ export default {
         <section class="my_grid">
             <div class="container position-relative">
                 <div class="my_btn">CURRENT SERIES</div>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xxl-6 g-3 py-4">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3   row-cols-lg-4 row-cols-xxl-6 g-3 py-4">
 
                     <Tumbler v-for="item in tumblers" 
                     :img="item.thumb"
